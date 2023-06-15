@@ -1,0 +1,36 @@
+.calc__outer {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+}
+
+.calc__inner {
+  width: 400px;
+  margin: auto;
+  /* border-radius: 14px; */
+}
+
+.calc__ff {
+  position: relative;
+  height: 90px;
+  background: cyan;
+  border-radius: 8px;
+  margin-bottom: 14px;
+}
+
+.calc__screen p {
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  word-break: break-all;
+  font-size: 1.4rem;
+}
+
+.calc__buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2px !important;
+}
+
+

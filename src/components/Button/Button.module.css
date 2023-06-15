@@ -1,0 +1,17 @@
+.button__outer {
+  text-align: center;
+  background: #fff;
+  padding: 14px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.special__btn {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.button__inner p {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
