@@ -3,6 +3,8 @@ import { calcContext } from "../../contexts/calcContext";
 import styles from "./Button.module.css";
 
 function Button({ buttonText }) {
+
+  // getting buttonClickHandler from calcContext
   const { buttonClickHanlder } = useContext(calcContext);
 
   const buttonClasses = `${styles.button__outer} ${
