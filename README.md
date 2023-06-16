@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Hosted Link:
+https://react-calculator-ap.netlify.app/
+
+### react-calculator:
+Users can perfom simple mathematical operatoins(like addition, multiplication, substraction and division) using this calculator.
+
 ## Available Scripts
 
 In the project directory, you can run:
